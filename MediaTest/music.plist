@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>duration</key>
+		<string>00:59</string>
+		<key>title</key>
+		<string>See you again</string>
+		<key>artist</key>
+		<string>刘宪华</string>
+		<key>pic</key>
+		<string>http://singerimg.kugou.com/uploadpic/softhead/400/20170905/20170905161131815.jpg</string>
+		<key>music_url</key>
+		<string>http://fs.w.kugou.com/201805221507/58934eac0b047397500654fb63a00ffb/G072/M08/1B/17/6IYBAFf7-_2IUVb_AA6W9rUCsvIAABUbwNstyQADpcO501.mp3</string>
+		<key>file_name</key>
+		<string>1770059653_2050944_l</string>
+		<key>content</key>
+		<string>此曲旋律轻快, 美妙, 仿佛欲将人带入一个十分干净且祥和的小镇...</string>
+	</dict>
+	<dict>
+		<key>duration</key>
+		<string>04:28</string>
+		<key>title</key>
+		<string>第三人称</string>
+		<key>artist</key>
+		<string>戚薇</string>
+		<key>pic</key>
+		<string>http://imge.kugou.com/stdmusic/20180428/20180428154428535282.jpg</string>
+		<key>music_url</key>
+		<string>http://fs.w.kugou.com/201805221416/fdb9d37e2fcc9181e1343d8648f3ec28/G123/M07/04/1B/W5QEAFrkJoSAKCecAEGCt0tlsDs601.mp3</string>
+		<key>file_name</key>
+		<string>1770040300_2031329_l</string>
+		<key>content</key>
+		<string>整首歌曲曲调轻松欢快, 这几天一直循环播放~</string>
+	</dict>
+	<dict>
+		<key>duration</key>
+		<string>02:44</string>
+		<key>title</key>
+		<string>Toca Toca</string>
+		<key>artist</key>
+		<string>Fly Project</string>
+		<key>pic</key>
+		<string>http://imge.kugou.com/stdmusic/20160908/20160908052948538637.jpg</string>
+		<key>music_url</key>
+		<string>http://fs.w.kugou.com/201805221439/f93bf2ff5893ab36ad253adaf18945e4/G012/M03/1F/14/rIYBAFULdzCAdUfBACgsNcEKKCk360.mp3</string>
+		<key>file_name</key>
+		<string>1771694697_4194836_l</string>
+		<key>content</key>
+		<string>致十年后的自己，人生能有几个十年</string>
+	</dict>
+</array>
+</plist>

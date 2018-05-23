@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0407FA7720B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407FA7520B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.m */; };
+		0407FA7820B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0407FA7620B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.xib */; };
+		0407FA7A20B506DA0037FDB2 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0407FA7920B506DA0037FDB2 /* AVKit.framework */; };
+		0407FA8120B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407FA7F20B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.m */; };
+		0407FA8220B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0407FA8020B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.xib */; };
+		0407FA8720B515C60037FDB2 /* ZWWMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407FA8520B515C60037FDB2 /* ZWWMediaViewController.m */; };
+		0407FA8820B515C60037FDB2 /* ZWWMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0407FA8620B515C60037FDB2 /* ZWWMediaViewController.xib */; };
+		041A491F20B26ACE001CC144 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A491E20B26ACE001CC144 /* AudioToolbox.framework */; };
+		041A492120B26FF1001CC144 /* 10054.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041A492020B26FF1001CC144 /* 10054.wav */; };
+		041A492420B2B0BC001CC144 /* ZWWPlayAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A492320B2B0BC001CC144 /* ZWWPlayAudioManager.m */; };
+		041A492920B2B9F8001CC144 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A492820B2B9F8001CC144 /* AVFoundation.framework */; };
+		041A492D20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A492B20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.m */; };
+		041A492E20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A492C20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.xib */; };
+		041A493020B2BEB8001CC144 /* 体面.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041A492F20B2BEB8001CC144 /* 体面.mp3 */; };
+		04747BF520B026CA0040A962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04747BF420B026CA0040A962 /* AppDelegate.m */; };
+		04747BFD20B026D00040A962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04747BFC20B026D00040A962 /* Assets.xcassets */; };
+		04747C0020B026D00040A962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04747BFE20B026D00040A962 /* LaunchScreen.storyboard */; };
+		04747C0320B026D00040A962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04747C0220B026D00040A962 /* main.m */; };
+		04747C0D20B026D10040A962 /* MediaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04747C0C20B026D10040A962 /* MediaTestTests.m */; };
+		04747C1820B026D10040A962 /* MediaTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04747C1720B026D10040A962 /* MediaTestUITests.m */; };
+		04747C2A20B0296B0040A962 /* ZWWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04747C2920B0296B0040A962 /* ZWWTableViewController.m */; };
+		04747C2D20B029810040A962 /* ZWWTableViewController+method.m in Sources */ = {isa = PBXBuildFile; fileRef = 04747C2C20B029810040A962 /* ZWWTableViewController+method.m */; };
+		04D3D35820B3B193001CC84C /* ZWWPlayUrlAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3D35620B3B193001CC84C /* ZWWPlayUrlAudioViewController.m */; };
+		04D3D35920B3B193001CC84C /* ZWWPlayUrlAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D3D35720B3B193001CC84C /* ZWWPlayUrlAudioViewController.xib */; };
+		04D3D35C20B3B651001CC84C /* ZWWMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3D35B20B3B651001CC84C /* ZWWMusicInfo.m */; };
+		04D3D36420B3E207001CC84C /* music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D3D36320B3E207001CC84C /* music.plist */; };
+		04D3D36620B4213C001CC84C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D3D36520B4213C001CC84C /* MediaPlayer.framework */; };
+		5C905A837D2B9DFB7F5CA2C7 /* libPods-MediaTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63597D0386B3A2E327CED8 /* libPods-MediaTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04747C0920B026D10040A962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04747BE820B026CA0040A962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04747BEF20B026CA0040A962;
+			remoteInfo = MediaTest;
+		};
+		04747C1420B026D10040A962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04747BE820B026CA0040A962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04747BEF20B026CA0040A962;
+			remoteInfo = MediaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0407FA7420B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWMPMoviePlayerViewController.h; sourceTree = "<group>"; };
+		0407FA7520B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		0407FA7620B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWWMPMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		0407FA7920B506DA0037FDB2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		0407FA7E20B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWAVPlayerLayerViewController.h; sourceTree = "<group>"; };
+		0407FA7F20B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWAVPlayerLayerViewController.m; sourceTree = "<group>"; };
+		0407FA8020B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWWAVPlayerLayerViewController.xib; sourceTree = "<group>"; };
+		0407FA8320B514630037FDB2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0407FA8420B515C60037FDB2 /* ZWWMediaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWMediaViewController.h; sourceTree = "<group>"; };
+		0407FA8520B515C60037FDB2 /* ZWWMediaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWMediaViewController.m; sourceTree = "<group>"; };
+		0407FA8620B515C60037FDB2 /* ZWWMediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWWMediaViewController.xib; sourceTree = "<group>"; };
+		0407FA8920B51A580037FDB2 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		041A491E20B26ACE001CC144 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		041A492020B26FF1001CC144 /* 10054.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10054.wav; sourceTree = "<group>"; };
+		041A492220B2B0BC001CC144 /* ZWWPlayAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWPlayAudioManager.h; sourceTree = "<group>"; };
+		041A492320B2B0BC001CC144 /* ZWWPlayAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWPlayAudioManager.m; sourceTree = "<group>"; };
+		041A492820B2B9F8001CC144 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		041A492A20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWPlayLocalAudioViewController.h; sourceTree = "<group>"; };
+		041A492B20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWPlayLocalAudioViewController.m; sourceTree = "<group>"; };
+		041A492C20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWWPlayLocalAudioViewController.xib; sourceTree = "<group>"; };
+		041A492F20B2BEB8001CC144 /* 体面.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "体面.mp3"; sourceTree = "<group>"; };
+		04747BF020B026CA0040A962 /* MediaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04747BF320B026CA0040A962 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04747BF420B026CA0040A962 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04747BFC20B026D00040A962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04747BFF20B026D00040A962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04747C0120B026D00040A962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04747C0220B026D00040A962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04747C0820B026D10040A962 /* MediaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04747C0C20B026D10040A962 /* MediaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaTestTests.m; sourceTree = "<group>"; };
+		04747C0E20B026D10040A962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04747C1320B026D10040A962 /* MediaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04747C1720B026D10040A962 /* MediaTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaTestUITests.m; sourceTree = "<group>"; };
+		04747C1920B026D10040A962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04747C2820B0296B0040A962 /* ZWWTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWTableViewController.h; sourceTree = "<group>"; };
+		04747C2920B0296B0040A962 /* ZWWTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWTableViewController.m; sourceTree = "<group>"; };
+		04747C2B20B029810040A962 /* ZWWTableViewController+method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZWWTableViewController+method.h"; sourceTree = "<group>"; };
+		04747C2C20B029810040A962 /* ZWWTableViewController+method.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZWWTableViewController+method.m"; sourceTree = "<group>"; };
+		04D3D35520B3B193001CC84C /* ZWWPlayUrlAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWPlayUrlAudioViewController.h; sourceTree = "<group>"; };
+		04D3D35620B3B193001CC84C /* ZWWPlayUrlAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWPlayUrlAudioViewController.m; sourceTree = "<group>"; };
+		04D3D35720B3B193001CC84C /* ZWWPlayUrlAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWWPlayUrlAudioViewController.xib; sourceTree = "<group>"; };
+		04D3D35A20B3B651001CC84C /* ZWWMusicInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWMusicInfo.h; sourceTree = "<group>"; };
+		04D3D35B20B3B651001CC84C /* ZWWMusicInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWMusicInfo.m; sourceTree = "<group>"; };
+		04D3D36320B3E207001CC84C /* music.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = music.plist; sourceTree = "<group>"; };
+		04D3D36520B4213C001CC84C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9B63597D0386B3A2E327CED8 /* libPods-MediaTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediaTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A1C156811A8C4ABAC33A82 /* Pods-MediaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediaTest/Pods-MediaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DB3DC01BD0318A42270426DA /* Pods-MediaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediaTest/Pods-MediaTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04747BED20B026CA0040A962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407FA7A20B506DA0037FDB2 /* AVKit.framework in Frameworks */,
+				04D3D36620B4213C001CC84C /* MediaPlayer.framework in Frameworks */,
+				041A492920B2B9F8001CC144 /* AVFoundation.framework in Frameworks */,
+				041A491F20B26ACE001CC144 /* AudioToolbox.framework in Frameworks */,
+				5C905A837D2B9DFB7F5CA2C7 /* libPods-MediaTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04747C0520B026D10040A962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04747C1020B026D10040A962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041A491D20B26ACD001CC144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0407FA7920B506DA0037FDB2 /* AVKit.framework */,
+				04D3D36520B4213C001CC84C /* MediaPlayer.framework */,
+				041A492820B2B9F8001CC144 /* AVFoundation.framework */,
+				041A491E20B26ACE001CC144 /* AudioToolbox.framework */,
+				9B63597D0386B3A2E327CED8 /* libPods-MediaTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04747BE720B026CA0040A962 = {
+			isa = PBXGroup;
+			children = (
+				04747BF220B026CA0040A962 /* MediaTest */,
+				04747C0B20B026D10040A962 /* MediaTestTests */,
+				04747C1620B026D10040A962 /* MediaTestUITests */,
+				04747BF120B026CA0040A962 /* Products */,
+				041A491D20B26ACD001CC144 /* Frameworks */,
+				D20C0DFFE7B34E0A6FF92498 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04747BF120B026CA0040A962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04747BF020B026CA0040A962 /* MediaTest.app */,
+				04747C0820B026D10040A962 /* MediaTestTests.xctest */,
+				04747C1320B026D10040A962 /* MediaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04747BF220B026CA0040A962 /* MediaTest */ = {
+			isa = PBXGroup;
+			children = (
+				04D3D36320B3E207001CC84C /* music.plist */,
+				0407FA8320B514630037FDB2 /* PrefixHeader.pch */,
+				0407FA8920B51A580037FDB2 /* UtilsMacros.h */,
+				04747BF320B026CA0040A962 /* AppDelegate.h */,
+				04747BF420B026CA0040A962 /* AppDelegate.m */,
+				04747C2820B0296B0040A962 /* ZWWTableViewController.h */,
+				04747C2920B0296B0040A962 /* ZWWTableViewController.m */,
+				04747C2B20B029810040A962 /* ZWWTableViewController+method.h */,
+				04747C2C20B029810040A962 /* ZWWTableViewController+method.m */,
+				041A492A20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.h */,
+				041A492B20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.m */,
+				041A492C20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.xib */,
+				04D3D35520B3B193001CC84C /* ZWWPlayUrlAudioViewController.h */,
+				04D3D35620B3B193001CC84C /* ZWWPlayUrlAudioViewController.m */,
+				04D3D35720B3B193001CC84C /* ZWWPlayUrlAudioViewController.xib */,
+				0407FA8420B515C60037FDB2 /* ZWWMediaViewController.h */,
+				0407FA8520B515C60037FDB2 /* ZWWMediaViewController.m */,
+				0407FA8620B515C60037FDB2 /* ZWWMediaViewController.xib */,
+				04D3D35A20B3B651001CC84C /* ZWWMusicInfo.h */,
+				04D3D35B20B3B651001CC84C /* ZWWMusicInfo.m */,
+				041A492020B26FF1001CC144 /* 10054.wav */,
+				041A492F20B2BEB8001CC144 /* 体面.mp3 */,
+				041A492220B2B0BC001CC144 /* ZWWPlayAudioManager.h */,
+				041A492320B2B0BC001CC144 /* ZWWPlayAudioManager.m */,
+				04747BFC20B026D00040A962 /* Assets.xcassets */,
+				04747BFE20B026D00040A962 /* LaunchScreen.storyboard */,
+				04747C0120B026D00040A962 /* Info.plist */,
+				04747C0220B026D00040A962 /* main.m */,
+				0407FA7420B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.h */,
+				0407FA7520B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.m */,
+				0407FA7620B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.xib */,
+				0407FA7E20B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.h */,
+				0407FA7F20B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.m */,
+				0407FA8020B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.xib */,
+			);
+			path = MediaTest;
+			sourceTree = "<group>";
+		};
+		04747C0B20B026D10040A962 /* MediaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				04747C0C20B026D10040A962 /* MediaTestTests.m */,
+				04747C0E20B026D10040A962 /* Info.plist */,
+			);
+			path = MediaTestTests;
+			sourceTree = "<group>";
+		};
+		04747C1620B026D10040A962 /* MediaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04747C1720B026D10040A962 /* MediaTestUITests.m */,
+				04747C1920B026D10040A962 /* Info.plist */,
+			);
+			path = MediaTestUITests;
+			sourceTree = "<group>";
+		};
+		D20C0DFFE7B34E0A6FF92498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1C156811A8C4ABAC33A82 /* Pods-MediaTest.debug.xcconfig */,
+				DB3DC01BD0318A42270426DA /* Pods-MediaTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04747BEF20B026CA0040A962 /* MediaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04747C1C20B026D10040A962 /* Build configuration list for PBXNativeTarget "MediaTest" */;
+			buildPhases = (
+				50B963D1B672B0C9311E3C4D /* [CP] Check Pods Manifest.lock */,
+				04747BEC20B026CA0040A962 /* Sources */,
+				04747BED20B026CA0040A962 /* Frameworks */,
+				04747BEE20B026CA0040A962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaTest;
+			productName = MediaTest;
+			productReference = 04747BF020B026CA0040A962 /* MediaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04747C0720B026D10040A962 /* MediaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04747C1F20B026D10040A962 /* Build configuration list for PBXNativeTarget "MediaTestTests" */;
+			buildPhases = (
+				04747C0420B026D10040A962 /* Sources */,
+				04747C0520B026D10040A962 /* Frameworks */,
+				04747C0620B026D10040A962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04747C0A20B026D10040A962 /* PBXTargetDependency */,
+			);
+			name = MediaTestTests;
+			productName = MediaTestTests;
+			productReference = 04747C0820B026D10040A962 /* MediaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04747C1220B026D10040A962 /* MediaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04747C2220B026D10040A962 /* Build configuration list for PBXNativeTarget "MediaTestUITests" */;
+			buildPhases = (
+				04747C0F20B026D10040A962 /* Sources */,
+				04747C1020B026D10040A962 /* Frameworks */,
+				04747C1120B026D10040A962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04747C1520B026D10040A962 /* PBXTargetDependency */,
+			);
+			name = MediaTestUITests;
+			productName = MediaTestUITests;
+			productReference = 04747C1320B026D10040A962 /* MediaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04747BE820B026CA0040A962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZWW;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04747BEF20B026CA0040A962 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					04747C0720B026D10040A962 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 04747BEF20B026CA0040A962;
+					};
+					04747C1220B026D10040A962 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 04747BEF20B026CA0040A962;
+					};
+				};
+			};
+			buildConfigurationList = 04747BEB20B026CA0040A962 /* Build configuration list for PBXProject "MediaTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04747BE720B026CA0040A962;
+			productRefGroup = 04747BF120B026CA0040A962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04747BEF20B026CA0040A962 /* MediaTest */,
+				04747C0720B026D10040A962 /* MediaTestTests */,
+				04747C1220B026D10040A962 /* MediaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04747BEE20B026CA0040A962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407FA8820B515C60037FDB2 /* ZWWMediaViewController.xib in Resources */,
+				04D3D36420B3E207001CC84C /* music.plist in Resources */,
+				0407FA8220B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.xib in Resources */,
+				04D3D35920B3B193001CC84C /* ZWWPlayUrlAudioViewController.xib in Resources */,
+				041A493020B2BEB8001CC144 /* 体面.mp3 in Resources */,
+				04747C0020B026D00040A962 /* LaunchScreen.storyboard in Resources */,
+				0407FA7820B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.xib in Resources */,
+				041A492120B26FF1001CC144 /* 10054.wav in Resources */,
+				041A492E20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.xib in Resources */,
+				04747BFD20B026D00040A962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04747C0620B026D10040A962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04747C1120B026D10040A962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50B963D1B672B0C9311E3C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04747BEC20B026CA0040A962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A492D20B2BA23001CC144 /* ZWWPlayLocalAudioViewController.m in Sources */,
+				041A492420B2B0BC001CC144 /* ZWWPlayAudioManager.m in Sources */,
+				04747C0320B026D00040A962 /* main.m in Sources */,
+				0407FA8720B515C60037FDB2 /* ZWWMediaViewController.m in Sources */,
+				04747C2D20B029810040A962 /* ZWWTableViewController+method.m in Sources */,
+				04747C2A20B0296B0040A962 /* ZWWTableViewController.m in Sources */,
+				0407FA8120B5127D0037FDB2 /* ZWWAVPlayerLayerViewController.m in Sources */,
+				04D3D35820B3B193001CC84C /* ZWWPlayUrlAudioViewController.m in Sources */,
+				04D3D35C20B3B651001CC84C /* ZWWMusicInfo.m in Sources */,
+				04747BF520B026CA0040A962 /* AppDelegate.m in Sources */,
+				0407FA7720B505EB0037FDB2 /* ZWWMPMoviePlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04747C0420B026D10040A962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04747C0D20B026D10040A962 /* MediaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04747C0F20B026D10040A962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04747C1820B026D10040A962 /* MediaTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04747C0A20B026D10040A962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04747BEF20B026CA0040A962 /* MediaTest */;
+			targetProxy = 04747C0920B026D10040A962 /* PBXContainerItemProxy */;
+		};
+		04747C1520B026D10040A962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04747BEF20B026CA0040A962 /* MediaTest */;
+			targetProxy = 04747C1420B026D10040A962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04747BFE20B026D00040A962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04747BFF20B026D00040A962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04747C1A20B026D10040A962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04747C1B20B026D10040A962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04747C1D20B026D10040A962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A1C156811A8C4ABAC33A82 /* Pods-MediaTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 84479DR68T;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MediaTest/PrefixHeader.pch";
+				INFOPLIST_FILE = MediaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljk.ALTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0fc0180-b37f-4f14-b980-3fbbb8880903";
+				PROVISIONING_PROFILE_SPECIFIER = "dev_profile(0503)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04747C1E20B026D10040A962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3DC01BD0318A42270426DA /* Pods-MediaTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 84479DR68T;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MediaTest/PrefixHeader.pch";
+				INFOPLIST_FILE = MediaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljk.ALTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ece13b4d-2c75-4a8f-aad5-17679ded0455";
+				PROVISIONING_PROFILE_SPECIFIER = "Ad_hoc_profile(0503)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04747C2020B026D10040A962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.MediaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaTest.app/MediaTest";
+			};
+			name = Debug;
+		};
+		04747C2120B026D10040A962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.MediaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaTest.app/MediaTest";
+			};
+			name = Release;
+		};
+		04747C2320B026D10040A962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.MediaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediaTest;
+			};
+			name = Debug;
+		};
+		04747C2420B026D10040A962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.MediaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04747BEB20B026CA0040A962 /* Build configuration list for PBXProject "MediaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04747C1A20B026D10040A962 /* Debug */,
+				04747C1B20B026D10040A962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04747C1C20B026D10040A962 /* Build configuration list for PBXNativeTarget "MediaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04747C1D20B026D10040A962 /* Debug */,
+				04747C1E20B026D10040A962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04747C1F20B026D10040A962 /* Build configuration list for PBXNativeTarget "MediaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04747C2020B026D10040A962 /* Debug */,
+				04747C2120B026D10040A962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04747C2220B026D10040A962 /* Build configuration list for PBXNativeTarget "MediaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04747C2320B026D10040A962 /* Debug */,
+				04747C2420B026D10040A962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04747BE820B026CA0040A962 /* Project object */;
+}
