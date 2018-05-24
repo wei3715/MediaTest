@@ -100,6 +100,8 @@
             self.timeSlider.maximumValue = CMTimeGetSeconds(self.playerItem.duration);
             NSLog(@"时间总值==%lf",self.timeSlider.maximumValue);
             __weak typeof (self)weakSelf = self;
+            
+            //这里queue：也可以是 dispatch_get_global_queue(0, 0),不过weakSelf.timeSlider.value 这里更新UI的时候还需要再回到主线程才可以
             [self.player addPeriodicTimeObserverForInterval:CMTimeMake(1, 1) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
                 weakSelf.timeSlider.value = CMTimeGetSeconds(time);
             }];
